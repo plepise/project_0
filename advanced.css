@@ -1,0 +1,55 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+  }
+
+  h2 {
+    color: rgb(197, 13, 29);
+    float: left;
+    margin-left: 15px;
+    }
+    
+  h3 {
+        color: black;
+        position: fixed;
+        float: left;
+        margin-left: 15px;
+    }
+
+    label {
+        width:180px;
+        clear:left;
+        text-align:left;
+        padding-right:10px;
+        padding-left: 15px;
+    }
+    
+    input, label {
+        float:left;
+    }
+
+  
+    .button{
+    position: fixed;
+    text-align: center;
+    margin-top:30px;
+    background-color: blue;
+    border: 1px double darkslateblue;
+    color:white;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+    }
+    
+    .button:hover{
+    border: 1px double #060244;
+    padding: 9px 19px;
+    color:#280461;
+    color: white;
+    }
+    .button:focus{
+    border:1px double #010f27;
+    padding: 9px 19px;
+    }
